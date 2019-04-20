@@ -244,14 +244,14 @@ figcaption {
 
 }
 
-.geisha img, .ejipcia img, .holandesa img,
+.geisha img, .egipcia img, .holandesa img,
 .rusa img, .suiza img, .veracruzana img {
   height: 400px;
   width: 400px;
   border-radius: 15px;
 }
 
-.geisha, .ejipcia, .olandesa,
+.geisha, .egipcia, .holandesa,
 .rusa, .suiza, .veracruzana {
   flex-grow: 1;
   padding: 5px;
@@ -262,7 +262,7 @@ figcaption {
   filter: blur(10px)
 }
 
-.ejipcia, .rusa, .veracruzana {
+.egipcia, .rusa, .veracruzana {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
