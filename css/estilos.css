@@ -1,0 +1,275 @@
+*{ margin: 0 20px 0 20px; border: 0 10px;}
+body {
+  background: #45413D;
+  font-family: "Dancing Script";
+  letter-spacing: 0.2em;
+}
+header{
+  margin: auto;
+  width: 100%;
+  height: auto;
+  overflow:hidden;
+  background-color: #5b7989;
+  border-radius: 15px 15px 0 0;
+  margin-top: 30px;
+  padding-bottom: 10px;
+
+}
+
+section{
+  margin: auto;
+  width: auto;
+}
+
+.contenedor{
+  width: 100%;
+  max-width:none;
+  margin: auto;
+  overflow: hidden;
+}
+
+header .Nombre{
+  color: #f2f2f2;
+  font-size: 50px;
+  line-height: 200px;
+  float: left;
+  text-shadow:0 0 20px  #02010a;
+  transition: 5s;
+  animation: slide-rebota 5s;
+}
+
+header nav {
+   float: right;
+   line-height: 200px;
+}
+
+header nav a {
+   display: inline-block;
+   color: #1AC8AD;
+   text-decoration: none;
+   padding: 10px 20px;
+   line-height: normal;
+   font-size: 35px;
+   font-weight:normal;
+   -webkit-transition: all 500ms ease;
+   -o-transition:all 500ms ease;
+   transition: all 500ms ease;
+}
+
+header nav a:hover{
+   background: #D4D4CD;
+   border-radius: 50px;
+}
+
+img  {
+  height:90%;
+  width:90%;
+  margin: auto;
+  display: block;
+  box-shadow: 2px 2px 5px brown;
+}
+
+#pic1 {
+   padding: 25px 25px 10px 10px;
+   box-shadow: none;
+}
+.foto1 {
+  margin: auto;
+  background: #82c3a6;
+  height: 650px;
+  width: auto;
+
+}
+
+.contenedor1{
+  margin: auto;
+  border: 1px  solid black;
+  background: #d5c75f;
+  height: 750px;
+  display: flex;
+  font-size: 40px;
+}
+
+.foto2 {
+  height: 80%;
+  width: 80%;
+  margin: auto;
+  display: block;
+  text-align: center;
+
+}
+
+.foto2 img:hover {
+  box-shadow: 2px 2px #82c3a6;
+  -moz-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  transform: rotate(10deg);
+  -moz-transition: 1s;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.foto3{
+  height:80%;
+  width:80%;
+  margin: auto;
+  display: block;
+  text-align: center;
+
+}
+.foto3 img:hover {
+  box-shadow: 2px 2px #82c3a6;
+  -moz-transform: translate(20px,-5px);
+  -webkit-transform: translate(20px,-5px);
+  -o-transform: translate(20px,-5px);
+  transform: translate(20px,-5px);
+  -moz-transition: 1s;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+footer{
+  border-radius: 0 0 15px 15px;
+  background: #c6d5c5;
+  width: auto;
+  margin: auto;
+
+}
+
+.contenedor2  {
+  margin: auto;
+  display: flex;
+  overflow:hidden;
+  font-size: 25px;
+  color: #0A5276;
+  margin-bottom: 35px;
+  width: 85%;
+}
+
+#mail{
+  font-size: 23px;
+}
+
+h2 {
+  color: green;
+  font-family: "Dancing Script";
+  padding: 25px;
+}
+
+.icon {
+	color: #EAF3F8;
+	text-decoration: none;
+	padding: .3rem;
+	display: flex;
+  transition: all .5s;
+}
+
+.icon-facebook {
+	background: #2E406E;
+}
+
+.icon-twitter {
+	background: #339DC5;
+}
+
+.icon-youtube {
+	background: #E83028;
+}
+
+.icon-instagram {
+	background: #3F60A5;
+}
+
+.icon {
+	border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.icon:hover {
+	padding-right: 1rem;
+	border-radius: 2rem 0 2rem 1rem;
+}
+
+.paisajes {
+  display: flex;
+  flex-flow: row wrap;
+	background-color: #d5c75f;
+  padding: 20px;
+  color: purple;
+}
+
+.moscu img, .africa img,
+.colombia img, .oregon img,
+.salvador img, .zelanda img {
+   height: 400px;
+   width: 400px;
+   border-radius: 15px;
+}
+
+.moscu, .africa,
+.colombia, .oregon,
+.salvador, .zelanda {
+  flex-grow: 1;
+  padding: 5px;
+}
+
+figcaption {
+  font-size: 45px;
+  text-align: center;
+}
+
+.salvador {
+  -webkit-filter: blur(10px);
+  filter: blur(10px)
+}
+
+.africa, .oregon, .zelanda {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.colombia {
+  -webkit-filter: sepia(90%);
+  filter: sepia(90%);
+}
+
+.retratos{
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #d5c75f;
+  padding: 20px;
+  color: purple;
+
+}
+
+.geisha img, .ejipcia img, .holandesa img,
+.rusa img, .suiza img, .veracruzana img {
+  height: 400px;
+  width: 400px;
+  border-radius: 15px;
+}
+
+.geisha, .ejipcia, .olandesa,
+.rusa, .suiza, .veracruzana {
+  flex-grow: 1;
+  padding: 5px;
+}
+
+.geisha{
+  -webkit-filter: blur(10px);
+  filter: blur(10px)
+}
+
+.ejipcia, .rusa, .veracruzana {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.holandesa{
+  -webkit-filter: sepia(90%);
+  filter: sepia(90%);
+}
+
+@media (min-width: 420px) and ( max-width: 900px)
