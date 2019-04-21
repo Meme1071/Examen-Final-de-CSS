@@ -4,6 +4,7 @@ body {
   font-family: "Dancing Script";
   letter-spacing: 0.2em;
 }
+
 header{
   margin: auto;
   width: 100%;
@@ -13,7 +14,6 @@ header{
   border-radius: 15px 15px 0 0;
   margin-top: 30px;
   padding-bottom: 10px;
-
 }
 
 section{
@@ -73,12 +73,12 @@ img  {
    padding: 25px 25px 10px 10px;
    box-shadow: none;
 }
+
 .foto1 {
   margin: auto;
   background: #82c3a6;
   height: 650px;
   width: auto;
-
 }
 
 .contenedor1{
@@ -96,7 +96,6 @@ img  {
   margin: auto;
   display: block;
   text-align: center;
-
 }
 
 .foto2 img:hover {
@@ -117,8 +116,8 @@ img  {
   margin: auto;
   display: block;
   text-align: center;
-
 }
+
 .foto3 img:hover {
   box-shadow: 2px 2px #82c3a6;
   -moz-transform: translate(20px,-5px);
@@ -136,13 +135,12 @@ footer{
   background: #c6d5c5;
   width: auto;
   margin: auto;
-
 }
 
 .contenedor2  {
   margin: auto;
   display: flex;
-  overflow:hidden;
+  overflow: hidden;
   font-size: 25px;
   color: #0A5276;
   margin-bottom: 35px;
@@ -241,7 +239,6 @@ figcaption {
   background-color: #d5c75f;
   padding: 20px;
   color: purple;
-
 }
 
 .geisha img, .egipcia img, .holandesa img,
@@ -272,4 +269,59 @@ figcaption {
   filter: sepia(90%);
 }
 
-@media (min-width: 420px) and ( max-width: 900px)
+@media (max-width: 900px) {
+  body{
+    width: 100%;
+    margin: 20px 20px 20px 20px
+    flex-direction: column;
+  }
+
+  header .Nombre {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding-left: 25px;
+  float: left;
+  text-shadow: 0 0 20px #02010a;
+  transition: 1s;
+  animation: slide-rebota 0s;
+  }
+
+  header nav{
+    float: left;
+    display: flex;
+    margin-left: 1%;
+    flex-direction: column;
+
+  }
+
+  .contenedor {
+    width: 100%;
+    height: 100%;
+    padding: 25px 25px 10px 10px;
+  }
+
+  .contenedor1 {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding: 25px 25px 10px 10px;
+  }
+  .contenedor2 {
+    width: 100%;
+    flex-direction: column;
+  }
+  figure img{
+    width: 100%;
+    flex-direction: column;
+
+  }
+  footer{
+    width: 100%;
+    flex-direction: column;
+  }
+}
+@media (min-width: 901px) {
+  body {
+    flex-wrap: wrap;
+  }
+}
